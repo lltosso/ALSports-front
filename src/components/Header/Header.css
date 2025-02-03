@@ -1,3 +1,17 @@
-button {
-    background-color: salmon;
+.header {
+    background-color: #272727;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: calc(100% - 200px);
+    height: 80px;
+    .btn-logout {
+        background-color: #B5B5B5;
+        color: #110A33;
+        border: 1px solid #110A33;
+        border-radius: 10px;
+    }
+    .btn-logout:hover {
+        border: 2px solid #110A33;
+    }
 }

@@ -1,6 +1,18 @@
-function Header() {
+import "./Header.css";
+
+  function Header() {
+    const breadcrumbMap = {
+      app: "Dashboard",
+      books: "Catálogo",
+      "new-book": "Añadir libro",
+    };
+  
+  
   return (
-    <button>ALSports</button>
+    <header className="header">
+    <Breadcrumb icon={ FaHome } breadcrumbMap={breadcrumbMap}/>
+    <BtnLogOut className="btn-logout" text="Login"/>
+</header>
     
   )
 }

@@ -6,7 +6,16 @@
   color-scheme: light dark;
   color: #0b0101de;
   background-color: #ffffff;
-
+  
+  }
+  nav  {
+    justify-content: center;
+    flex-direction: column;
+  }
+    li a {
+    display: block;
+  padding: 8px;
+  background-color: #dddddd;
 
   }
 
